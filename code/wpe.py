@@ -204,7 +204,7 @@ if __name__ == '__main__':
 
 
     error = np.mean(np.abs(original_use-reconstructed))
-    accuracy = (100 - error)/1.30
+    accuracy = 100 - error
 
 
     print("Percentage of accuracy(mean absolute error):",accuracy)
